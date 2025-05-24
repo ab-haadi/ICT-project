@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportPro - Basic Version</title>
+    <style>
+        /* BASIC STYLES FROM JOURNALS */
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        h1, h2, h3 {
+            color: #1a3e72;
+        }
+        
+        /* SIMPLE CONTAINER (like journals' examples) */
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            padding: 15px;
+        }
+        
+        /* BASIC HEADER (no flexbox) */
+        header {
+            background-color: #1a3e72;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        /* SIMPLE NAV (no flexbox) */
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        /* GRADIENT OVERLAY (exception) */
+        .hero {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b');
+            background-size: cover;
+            height: 300px;
+            color: white;
+            text-align: center;
+            padding-top: 100px;
+        }
+        
+        /* BASIC PRODUCT CARDS (no grid/flexbox) */
+        .product-card {
+            background-color: white;
+            width: 250px;
+            margin: 15px;
+            display: inline-block;
+            border: 1px solid #ddd;
+        }
+        
+        .product-img {
+            height: 200px;
+            overflow: hidden;
+        }
+        
+        .product-img img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        /* SIMPLE BUTTONS (from journals) */
+        .btn {
+            display: inline-block;
+            background-color: #ff6b6b;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        
+        /* BASIC FOOTER */
+        footer {
+            background-color: #1a3e72;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- SIMPLE HEADER -->
+    <header>
+        <div class="container">
+            <h1>SportPro</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- HERO WITH GRADIENT OVERLAY -->
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to SportPro</h2>
+            <p>Your one-stop sports shop</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+    
+    <!-- BASIC PRODUCT LISTING -->
+    <section class="container">
+        <h2>Featured Products</h2>
+        <div>
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff" alt="Running Shoes">
+                </div>
+                <div>
+                    <h3>Pro Runner XT</h3>
+                    <p>$129.99</p>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1516478177764-9fe5bd7e9717" alt="Basketball">
+                </div>
+                <div>
+                    <h3>Elite Basketball</h3>
+                    <p>$49.99</p>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SIMPLE FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 SportPro. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
