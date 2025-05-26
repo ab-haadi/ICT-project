@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin:0
+}
+
+
+body{
+    background-color: black;
+    background-image: url(black.jpg);
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: white;
+    align-items: center;
+    
+    
+}
+
+
+header h1{
+    font-family: "Jersey 10", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 20px;
+}
+.searchbar{
+    padding: 10px;
+    display: flex;
+    
+}
+.search{
+    height:30px;
+text-align: center;
+    width: 300px;
+    margin: 0 20px;
+    border-radius: 20px;
+}
+.search:hover{
+    width: 400px;
+}
+
+    
+
+button{
+    border: none;
+    width: 60px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: black;
+    
+
+}
+button a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+.navbar{
+    display: flex;
+    /* background-color: rgb(47, 46, 46); */
+    justify-content: center;
+    width: 100%;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+}
+.navbar ul li{
+    padding:20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: "Orbitron", serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+    
+
+}
+.navbar ul li a:hover{
+    font-size: larger;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.mobiles{
+    width:300px;
+    margin: 20px 20px;
+    height:450px;
+    border: 2px solid white;
+}
+.mobiles img{
+    width: 300px;
+}
+.mobiles h2{
+    color: #fff;
+    text-align: center;
+}
+.mobiles button{
+    background-color: grey;
+    padding: 10px;
+    width: 100px;
+    
+}
+.mobiles p {
+    color: aliceblue;
+    text-align: center;
+    
+}
+
